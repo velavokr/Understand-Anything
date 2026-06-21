@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="#-hızlı-başlangıç"><img src="https://img.shields.io/badge/Hızlı_Başlangıç-blue" alt="Hızlı Başlangıç" /></a>
-  <a href="https://github.com/Egonex-AI/Understand-Anything/blob/main/LICENSE"><img src="https://img.shields.io/badge/Lisans-MIT-yellow" alt="Lisans: MIT" /></a>
+  <a href="https://github.com/velavokr/Understand-Anything/blob/main/LICENSE"><img src="https://img.shields.io/badge/Lisans-MIT-yellow" alt="Lisans: MIT" /></a>
   <a href="https://docs.anthropic.com/en/docs/claude-code"><img src="https://img.shields.io/badge/Claude_Code-8A2BE2" alt="Claude Code" /></a>
   <a href="#codex"><img src="https://img.shields.io/badge/Codex-000000" alt="Codex" /></a>
   <a href="#vs-code--github-copilot"><img src="https://img.shields.io/badge/Copilot-24292e" alt="Copilot" /></a>
@@ -104,7 +104,7 @@ Alan görünümüne geçin ve kodunuzun gerçek iş süreçleriyle nasıl eşle�
 ### 1. Eklentiyi yükle
 
 ```bash
-/plugin marketplace add Egonex-AI/Understand-Anything
+/plugin marketplace add velavokr/Understand-Anything
 /plugin install understand-anything
 ```
 
@@ -182,7 +182,7 @@ Understand-Anything birden fazla AI kodlama platformunda çalışır.
 ### Claude Code (Yerli)
 
 ```bash
-/plugin marketplace add Egonex-AI/Understand-Anything
+/plugin marketplace add velavokr/Understand-Anything
 /plugin install understand-anything
 ```
 
@@ -190,14 +190,14 @@ Understand-Anything birden fazla AI kodlama platformunda çalışır.
 
 **macOS / Linux:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/velavokr/Understand-Anything/main/install.sh | bash
 # veya platformu doğrudan geçirerek soruyu atla:
-curl -fsSL https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.sh | bash -s codex
+curl -fsSL https://raw.githubusercontent.com/velavokr/Understand-Anything/main/install.sh | bash -s codex
 ```
 
 **Windows (PowerShell):**
 ```powershell
-iwr -useb https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/velavokr/Understand-Anything/main/install.ps1 | iex
 ```
 
 Kurulum betiği depoyu `~/.understand-anything/repo` dizinine klonlar ve seçilen platform için uygun sembolik bağlantıları oluşturur. Sonrasında CLI/IDE'ni yeniden başlat.
@@ -210,7 +210,7 @@ Kurulum betiği depoyu `~/.understand-anything/repo` dizinine klonlar ve seçile
 
 Bu depo klonlandığında Cursor, eklentiyi `.cursor-plugin/plugin.json` aracılığıyla otomatik olarak keşfeder. Manuel kurulum gerekmez — sadece klonla ve Cursor'da aç.
 
-Otomatik keşif çalışmazsa manuel kur: **Cursor Settings → Plugins**'i aç, arama alanına `https://github.com/Egonex-AI/Understand-Anything` yapıştır ve oradan ekle.
+Otomatik keşif çalışmazsa manuel kur: **Cursor Settings → Plugins**'i aç, arama alanına `https://github.com/velavokr/Understand-Anything` yapıştır ve oradan ekle.
 
 ### VS Code + GitHub Copilot
 
@@ -221,13 +221,13 @@ Tüm projelerde kullanmak için kişisel beceri olarak kurmak istersen yukarıda
 ### Copilot CLI
 
 ```bash
-copilot plugin install Egonex-AI/Understand-Anything:understand-anything-plugin
+copilot plugin install velavokr/Understand-Anything:understand-anything-plugin
 ```
 
 ### Kiro CLI / IDE
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.sh | bash -s kiro
+curl -fsSL https://raw.githubusercontent.com/velavokr/Understand-Anything/main/install.sh | bash -s kiro
 ```
 
 Kurulumdan sonra:
@@ -346,11 +346,11 @@ Büyük değişiklikler için lütfen önce bir issue aç ki yaklaşımı tartı
 
 ## Star Geçmişi
 
-<a href="https://www.star-history.com/?repos=Egonex-AI%2FUnderstand-Anything&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=velavokr%2FUnderstand-Anything&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=Egonex-AI/Understand-Anything&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=Egonex-AI/Understand-Anything&type=date&legend=top-left" />
-   <img alt="Star Geçmişi Grafiği" src="https://api.star-history.com/image?repos=Egonex-AI/Understand-Anything&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=velavokr/Understand-Anything&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=velavokr/Understand-Anything&type=date&legend=top-left" />
+   <img alt="Star Geçmişi Grafiği" src="https://api.star-history.com/image?repos=velavokr/Understand-Anything&type=date&legend=top-left" />
  </picture>
 </a>
 
