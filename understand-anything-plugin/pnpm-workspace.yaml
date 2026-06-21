@@ -1,2 +1,22 @@
 packages:
   - "packages/*"
+# pnpm >=11 makes ERR_PNPM_IGNORED_BUILDS fatal (exit 1) → the /understand
+# first-run `pnpm install && tsc` build aborts. Declare a verdict per build
+# script so install exits 0. tree-sitter grammars are NOT built — this project
+# loads WASM grammars via web-tree-sitter (native bindings fail on darwin/arm64
+# + Node 24). packageManager pins pnpm 10.6.2 (warns, non-fatal) for corepack;
+# allowBuilds covers users on pnpm 11.x without corepack.
+allowBuilds:
+  esbuild: true
+  '@tree-sitter-grammars/tree-sitter-kotlin': false
+  tree-sitter-c: false
+  tree-sitter-c-sharp: false
+  tree-sitter-cpp: false
+  tree-sitter-go: false
+  tree-sitter-java: false
+  tree-sitter-javascript: false
+  tree-sitter-php: false
+  tree-sitter-python: false
+  tree-sitter-ruby: false
+  tree-sitter-rust: false
+  tree-sitter-typescript: false
